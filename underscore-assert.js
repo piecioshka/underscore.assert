@@ -43,9 +43,6 @@
     assert(typeof _ === 'object', 'Oghh! Why _ isn\'t object?');
     assert(typeof _.mixin === 'function', 'Hmmm, are you sure attached underscore.js?');
 
-    /**
-     * @mixin {@link http://underscorejs.org/|Underscore.js}
-     */
     _.mixin({
         'assert': assert
     });
