@@ -3,7 +3,7 @@
 
 - This is not for tests files in project...
 - This is not instead of [Jasmine][2] or any test framework...
-* This is inline code for test production code!
+* This is inline code for testing production code!
 
 <pre>
                          _
