@@ -40,9 +40,6 @@
         }
     }
 
-    assert(typeof _ === 'object', 'Oghh! Why _ isn\'t object?');
-    assert(typeof _.mixin === 'function', 'Hmmm, are you sure attached underscore.js?');
-
     _.mixin({
         'assert': assert
     });
