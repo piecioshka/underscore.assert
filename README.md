@@ -5,6 +5,15 @@
 - This is not instead of [Jasmine][2] or any test framework...
 * This is inline code for test production code!
 
+<pre>
+                         _
+                        | |
+  __ _ ___ ___  ___ _ __| |_
+ / _` / __/ __|/ _ \ '__| __|
+| (_| \__ \__ \  __/ |  | |_
+ \__,_|___/___/\___|_|   \__|
+</pre>
+
 Usage
 =====
 
@@ -29,15 +38,6 @@ function isUrl(url) {
 // ...
 ```
 
-<pre>
-                         _
-                        | |
-  __ _ ___ ___  ___ _ __| |_
- / _` / __/ __|/ _ \ '__| __|
-| (_| \__ \__ \  __/ |  | |_
- \__,_|___/___/\___|_|   \__|
-</pre>
-
 Changelog
 =========
 
@@ -47,7 +47,7 @@ Method throws `AssertionError` if first param is not boolean `true`.
 License
 =======
 
-[The MIT License][3]
+[The MIT License][3] (MIT)
 
 [1]: http://underscorejs.org/
 [2]: http://pivotal.github.io/jasmine/
