@@ -1,9 +1,9 @@
-Underscore.js assertion helper
+[Underscore.js][1] assertion helper
 ==============================
 
-- This is not for tests files project,
-- This is not instead of [jasmine][2] or any test framework,
-* This is for test in production code!
+- This is not for tests files in project...
+- This is not instead of [Jasmine][2] or any test framework...
+* This is inline code for test production code!
 
 Usage
 =====
@@ -19,16 +19,17 @@ _.assert(list.length, '*list* should contains any value');
 Example
 =======
 ```javascript
+// ...
+
 function isUrl(url) {
   _.assert(typeof url === 'string', 'URL should be a *string* value');
-  // ... valid URL
+  // ... URL validation
 }
+
+// ...
 ```
 
 <pre>
-
-
-Dependencies [underscore][1].
                          _
                         | |
   __ _ ___ ___  ___ _ __| |_
@@ -41,7 +42,7 @@ Changelog
 =========
 
 - Added `assert` method to main `_` underscore namespace.
-Method throws AssertionError if first param is not boolean `true`.
+Method throws `AssertionError` if first param is not boolean `true`.
 
 License
 =======
