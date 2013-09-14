@@ -22,7 +22,8 @@ _.assert(typeof fn === 'function', '*fn* should be function');
 // throws AssertionError
 
 _.assert(list.length, '*list* should contains any value');
-// for non-empty list nothing do it, but for empty list throw AssertionError
+// - for non-empty list nothing to do
+// - for empty list throws AssertionError
 ```
 
 Example
@@ -42,7 +43,7 @@ Changelog
 =========
 
 - Added `assert` method to main `_` underscore namespace.
-Method throws `AssertionError` if first param is not boolean `true`.
+Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
 
 License
 =======
