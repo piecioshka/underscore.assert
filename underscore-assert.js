@@ -5,8 +5,10 @@
  * @author Piotr Kowalski <piecioshka@gmail.com>
  * @license The MIT License (MIT)
  * @example
- *   _.assert(true, 'True must be truly value'); // idle...
+ *   _.assert(true, 'True must be truly value'); 
+ *   // idle...
  *   _.assert(typeof Object === 'number', 'Global value *Object* should be fn');
+ *   // throws AssertionError with message
  */
 /*jslint nomen: true, indent: 4 */
 /*global _ */
