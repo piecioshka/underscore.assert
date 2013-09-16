@@ -17,16 +17,16 @@
 
     /**
      * Assertion Error.
-     * @param {string} [msg]
+     * @param {string} [message]
      * @class
      * @constructor
      */
-    function AssertionError(msg) {
+    function AssertionError(message) {
         this.name = 'AssertionError';
-        this.message = msg || this.name;
+        this.message = (message || this.name);
     }
 
-    AssertionError.prototype = new Error();
+    AssertionError.prototype = Error.prototype;
     AssertionError.prototype.constructor = AssertionError;
 
     /**

@@ -8,16 +8,28 @@ describe("assert", function () {
     });
 
     it('should throw AssertionError for *falsy-values*', function () {
-        expect(_.assert.bind(null, undefined, 'undefined')).toThrow();
-        expect(_.assert.bind(null, null, 'null')).toThrow();
-        expect(_.assert.bind(null, false, 'false')).toThrow();
-        expect(_.assert.bind(null, 0, 'zero')).toThrow();
-        expect(_.assert.bind(null, NaN, 'NaN')).toThrow();
-        expect(_.assert.bind(null, '', 'empty string')).toThrow();
+        expect(_.assert.bind(this, undefined, 'undefined')).toThrow();
+        expect(_.assert.bind(this, null, 'null')).toThrow();
+        expect(_.assert.bind(this, false, 'false')).toThrow();
+        expect(_.assert.bind(this, 0, 'zero')).toThrow();
+        expect(_.assert.bind(this, NaN, 'NaN')).toThrow();
+        expect(_.assert.bind(this, '', 'empty string')).toThrow();
     });
 
     it('shouldn\'t throw for truthy condition', function () {
-        expect(_.assert.bind(null, 1, 'one')).not.toThrow();
-        expect(_.assert.bind(null, 'foo', 'non empty string')).not.toThrow();
+        expect(_.assert.bind(this, 1, 'one')).not.toThrow();
+        expect(_.assert.bind(this, 'foo', 'non empty string')).not.toThrow();
+    });
+
+    it('should throw AssertionError', function () {
+        expect(_.assert.bind(this, 0)).toThrow('AssertionError');
+
+        try {
+            _.assert(0);
+        } catch (e) {
+            expect(e instanceof Error).toBeTruthy();
+            expect(e instanceof Object).toBeTruthy();
+            expect(e instanceof Function).not.toBeTruthy();
+        }
     });
 });

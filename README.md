@@ -29,19 +29,31 @@ _.assert(list.length, '*list* should contains any value');
 Example
 =======
 ```javascript
-// ...
+// instead of this:
 
 function isUrl(url) {
-  _.assert(typeof url === 'string', 'URL should be a *string* value');
-  // ... URL validation
+    if (typeof url === 'string') {
+        throw new Error('URL should be a *string* value');
+    }
+
+    // ... URL validation
 }
 
-// ...
+// ... You can that:
+
+function isUrl(url) {
+    _.assert(typeof url === 'string', 'URL should be a *string* value');
+    // ... URL validation
+}
+
 ```
+
+There is a shorter, nicer and better practice.
 
 Changelog
 =========
 
+- Change `Assertion.prototype` from `new Error()` to `Error.prototype`.
 - Added `assert` method to main `_` underscore namespace.
 Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
 
