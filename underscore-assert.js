@@ -1,9 +1,9 @@
 /**
- * @fileOverview Underscore.js assertion helper
- * @requires {@link http://underscorejs.org/|Underscore.js}
- * @see https://github.com/piecioshka/underscore-assert
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @license The MIT License (MIT)
+ * @fileOverview Underscore.js assertion helper
+ * @see https://github.com/piecioshka/underscore-assert
+ * @requires {@link http://underscorejs.org/|Underscore.js}
+ * @license The MIT License
  * @example
  *   _.assert(true, 'True must be truly value'); 
  *   // idle...

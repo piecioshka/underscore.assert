@@ -1,5 +1,5 @@
 [Underscore.js][1] assertion helper
-==============================
+===================================
 
 - This is not for tests files in project...
 - This is not instead of [Jasmine][2] or any test framework...
@@ -12,6 +12,7 @@
  / _` / __/ __|/ _ \ '__| __|
 | (_| \__ \__ \  __/ |  | |_
  \__,_|___/___/\___|_|   \__|
+
 </pre>
 
 Usage
@@ -28,6 +29,7 @@ _.assert(list.length, '*list* should contains any value');
 
 Example
 =======
+
 ```javascript
 // instead of this:
 
@@ -60,7 +62,7 @@ Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
 License
 =======
 
-[The MIT License][3] (MIT)
+[The MIT License][3]
 
 [1]: http://underscorejs.org/
 [2]: http://pivotal.github.io/jasmine/
