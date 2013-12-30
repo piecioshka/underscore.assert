@@ -62,11 +62,11 @@ Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
 License
 =======
 
-[The MIT License][3]
+[The MIT License][0]
 
+[0]: http://piecioshka.mit-license.org
 [1]: http://underscorejs.org/
 [2]: http://pivotal.github.io/jasmine/
-[3]: https://github.com/piecioshka/underscore-assert/blob/master/LICENSE
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/piecioshka/underscore-assert/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
