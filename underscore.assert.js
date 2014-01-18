@@ -1,7 +1,7 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
  * @fileOverview Underscore.js assertion helper
- * @see https://github.com/piecioshka/underscore-assert
+ * @see https://github.com/piecioshka/underscore.assert
  * @requires {@link http://underscorejs.org/|Underscore.js}
  * @license The MIT License
  * @example
@@ -12,7 +12,7 @@
  */
 /*jslint nomen: true, indent: 4 */
 /*global _ */
-(function (_) {
+;(function (_) {
     'use strict';
 
     /**
