@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "homepage": "https://github.com/piecioshka/underscore.assert",
   "authors": [
-    "piecioshka <piecioshka@gmail.com>"
+    "Piotr Kowalski <piecioshka@gmail.com>"
   ],
   "description": "Underscore.js assertion helper",
   "keywords": [
@@ -22,6 +22,6 @@
     "tests"
   ],
   "dependencies": {
-      "underscore": null
+    "underscore": null
   }
 }
