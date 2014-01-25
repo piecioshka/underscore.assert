@@ -1,0 +1,27 @@
+{
+  "name": "underscore.assert",
+  "main": "underscore.assert.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/piecioshka/underscore.assert",
+  "authors": [
+    "piecioshka <piecioshka@gmail.com>"
+  ],
+  "description": "Underscore.js assertion helper",
+  "keywords": [
+    "underscore",
+    "assert",
+    "testing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+      "underscore": null
+  }
+}
