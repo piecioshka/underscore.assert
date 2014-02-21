@@ -12,8 +12,10 @@
  */
 /*jslint nomen: true, indent: 4 */
 /*global _ */
-;(function (_) {
+;(function (global) {
     'use strict';
+
+    var _ = global._;
 
     /**
      * Assertion Error.
@@ -45,4 +47,4 @@
     _.mixin({
         'assert': assert
     });
-}(_));
+}(this));
