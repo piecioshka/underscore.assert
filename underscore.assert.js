@@ -1,7 +1,7 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
  * @fileOverview Underscore.js assertion helper
- * @see https://github.com/piecioshka/underscore.assert
+ * @see https://github.com/piecioshka/underscore.assert.js
  * @requires {@link http://underscorejs.org/|Underscore.js}
  * @license The MIT License
  * @example

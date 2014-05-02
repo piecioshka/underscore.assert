@@ -1,5 +1,4 @@
-[Underscore.js][1] assertion helper
-===================================
+# [Underscore.js][1] assertion helper
 
 - This is not for tests files in project...
 - This is not instead of [Jasmine][2] or any test framework...
@@ -15,8 +14,7 @@
 
 </pre>
 
-Usage
-=====
+## Usage
 
 ```javascript
 _.assert(typeof fn === 'function', '*fn* should be function');
@@ -27,8 +25,7 @@ _.assert(list.length, '*list* should contains any value');
 // - for empty list throws AssertionError
 ```
 
-Example
-=======
+## Example
 
 ```javascript
 // instead of this:
@@ -52,22 +49,16 @@ function isUrl(url) {
 
 There is a shorter, nicer and better practice.
 
-Changelog
-=========
+## Changelog
 
 - Change `Assertion.prototype` from `new Error()` to `Error.prototype`.
 - Added `assert` method to main `_` underscore namespace.
 Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
 
-License
-=======
+## License
 
 [The MIT License][0]
 
 [0]: http://piecioshka.mit-license.org
 [1]: http://underscorejs.org/
 [2]: http://pivotal.github.io/jasmine/
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/piecioshka/underscore-assert/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
