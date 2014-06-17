@@ -13,6 +13,7 @@
 //     _.assert(typeof Object === 'number', 'Global value *Object* should be fn'); // throws AssertionError with message
 
 /*jslint nomen: true, indent: 4 */
+/*global define */
 
 (function (root, factory) {
     'use strict';
