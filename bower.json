@@ -1,7 +1,7 @@
 {
   "name": "underscore.assert.js",
   "main": "underscore.assert.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/piecioshka/underscore.assert.js",
   "authors": [
     "Piotr Kowalski <piecioshka@gmail.com>"

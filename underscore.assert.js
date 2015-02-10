@@ -53,7 +53,6 @@
         }
     }
 
-    _.mixin({
-        'assert': assert
-    });
+    // Exports method `assert`.
+    _.assert = assert;
 }));
