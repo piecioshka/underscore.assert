@@ -32,8 +32,12 @@
      * @param {string} [message]
      */
     function AssertionError(message) {
+        var err = new Error(message);
+        var stack = err.stack || err.stacktrace || null;
+
         this.name = 'AssertionError';
         this.message = (message || this.name);
+        this.stacktrace = stack;
     }
 
     AssertionError.prototype = Error.prototype;
