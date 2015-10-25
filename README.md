@@ -1,7 +1,7 @@
 # underscore.assert
 
 - This is not for tests files in project...
-- This is not instead of [Jasmine][2] or any test framework...
+- This is not instead of Jasmine or any test framework...
 * This is inline code for testing production code!
 
 <pre>
@@ -14,6 +14,12 @@
 
 </pre>
 
+## Install
+
+```
+npm install underscore.assert
+```
+
 ## Usage
 
 ```javascript
@@ -23,6 +29,10 @@ _.assert(typeof fn === 'function', '*fn* should be function');
 _.assert(list.length, '*list* should contains any value');
 // - for non-empty list nothing to do
 // - for empty list throws AssertionError
+
+_.assert(false); // => throw `AssertionError`
+_.assert.ErrorConstructor = MyCustomError;
+_.assert(false); // => throw `MyCustomError`
 ```
 
 ## Example
@@ -49,16 +59,6 @@ function isUrl(url) {
 
 There is a shorter, nicer and better practice.
 
-## Changelog
-
-- Change `Assertion.prototype` from `new Error()` to `Error.prototype`.
-- Added `assert` method to main `_` underscore namespace.
-Method throws `AssertionError` when first param isn't cast to {boolean} `true`.
-
 ## License
 
-[The MIT License][0]
-
-[0]: http://piecioshka.mit-license.org
-[1]: http://underscorejs.org/
-[2]: http://pivotal.github.io/jasmine/
+[The MIT License](http://piecioshka.mit-license.org)
