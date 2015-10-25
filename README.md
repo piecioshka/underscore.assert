@@ -1,5 +1,11 @@
 # underscore.assert
 
+![](https://img.shields.io/npm/v/underscore.assert.svg)
+![](https://img.shields.io/npm/dt/underscore.assert.svg)
+![](https://img.shields.io/npm/l/underscore.assert.svg)
+
+> Plugin for underscore - add method _.assert
+
 - This is not for tests files in project...
 - This is not instead of Jasmine or any test framework...
 * This is inline code for testing production code!
