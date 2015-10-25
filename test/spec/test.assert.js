@@ -1,4 +1,7 @@
-describe("assert", function () {
+var _ = require('underscore');
+_.assert = require('../../underscore.assert');
+
+describe('assert', function () {
     it('should exists in underscore', function () {
         expect(_.assert).not.toBeUndefined();
     });
@@ -22,7 +25,7 @@ describe("assert", function () {
     });
 
     it('should throw AssertionError', function () {
-        expect(_.assert.bind(this, 0)).toThrow('AssertionError');
+        expect(_.assert.bind(this, 0)).toThrow(jasmine.any(_.assert.ErrorConstructor));
 
         try {
             _.assert(0);

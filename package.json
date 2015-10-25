@@ -22,6 +22,10 @@
         "node_modules",
         "test"
     ],
+    "scripts": {
+        "clear": "rm -rf node_modules/",
+        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+    },
     "devDependencies": {
         "underscore": "^1.8.3"
     },
