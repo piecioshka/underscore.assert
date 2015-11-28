@@ -1,7 +1,7 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
  * @fileOverview Plugin for underscore - add method _.assert
- * @see https://github.com/piecioshka/underscore.assert.js
+ * @see https://github.com/piecioshka/underscore.assert
  * @license The MIT License
  */
 
@@ -52,7 +52,9 @@
 
     if (typeof define !== 'undefined' && define.amd) {
         // Support AMD.
-        define(['underscore'], assert);
+        define(['underscore'], function (root) {
+            root.assert = assert;
+        });
     } else if (typeof module !== 'undefined' && module.exports) {
         // Support CommonJS.
         module.exports = assert;
