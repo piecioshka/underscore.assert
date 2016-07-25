@@ -1,6 +1,6 @@
 {
     "name": "underscore.assert",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Plugin for underscore - add method _.assert",
     "license": "MIT",
     "author": {
@@ -12,22 +12,24 @@
         "type": "git",
         "url": "git+ssh://git@github.com/piecioshka/underscore.assert.git"
     },
+    "scripts": {
+        "clear": "rm -rf node_modules/",
+        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+    },
     "keywords": [
         "underscore",
         "assert",
         "testing"
     ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "test"
+    "files": [
+        "index.js",
+        "package.json",
+        "bower.json",
+        "README.md"
     ],
-    "scripts": {
-        "clear": "rm -rf node_modules/",
-        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
-    },
     "devDependencies": {
+        "jasmine": "^2.4.1",
         "underscore": "^1.8.3"
     },
-    "main": "underscore.assert.js"
+    "main": "index.js"
 }

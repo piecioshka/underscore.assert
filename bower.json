@@ -1,6 +1,6 @@
 {
     "name": "underscore.assert",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "description": "Plugin for underscore - add method _.assert",
     "license": "MIT",
     "author": {
@@ -22,8 +22,5 @@
         "node_modules",
         "test"
     ],
-    "devDependencies": {
-        "underscore": "^1.8.3"
-    },
-    "main": "underscore.assert.js"
+    "main": "index.js"
 }

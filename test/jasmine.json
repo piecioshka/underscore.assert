@@ -1,6 +1,6 @@
 {
-    "spec_dir": "test",
+    "spec_dir": "test/specs/",
     "spec_files": [
-        "spec/test.*.js"
+        "test.*.js"
     ]
 }

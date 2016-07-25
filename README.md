@@ -1,14 +1,10 @@
-# underscore.assert
+# underscore.assert ([npm](https://www.npmjs.com/package/underscore.assert))
 
 ![](https://img.shields.io/npm/v/underscore.assert.svg)
 ![](https://img.shields.io/npm/dt/underscore.assert.svg)
 ![](https://img.shields.io/npm/l/underscore.assert.svg)
 
-> Plugin for underscore - add method _.assert
-
-- This is not for tests files in project...
-- This is not instead of Jasmine or any test framework...
-* This is inline code for testing production code!
+> Extension for Underscore.js: add method "_.assert", which simplify checking critical states
 
 <pre>
                          _
@@ -20,6 +16,13 @@
 
 </pre>
 
+## Note
+
+Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.
+But if you insist I will be happy to hear that you use my package 
+
+Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
+
 ## Install
 
 ```
@@ -29,13 +32,8 @@ npm install underscore.assert
 ## Usage
 
 ```javascript
-_.assert(typeof fn === 'function', '*fn* should be function');
-// throws AssertionError
-
-_.assert(list.length, '*list* should contains any value');
-// - for non-empty list nothing to do
-// - for empty list throws AssertionError
-
+_.assert(typeof fn === 'function', '*fn* should be function'); // throws AssertionError
+_.assert(list.length > 0, '*list* should contains any value'); // thows ONLY when list is empty
 _.assert(false); // => throw `AssertionError`
 _.assert.ErrorConstructor = MyCustomError;
 _.assert(false); // => throw `MyCustomError`
@@ -43,9 +41,9 @@ _.assert(false); // => throw `MyCustomError`
 
 ## Example
 
-```javascript
-// instead of this:
+Instead of this:
 
+```javascript
 function isUrl(url) {
     if (typeof url === 'string') {
         throw new Error('URL should be a *string* value');
@@ -53,9 +51,11 @@ function isUrl(url) {
 
     // ... URL validation
 }
+```
 
-// ... You can that:
+... you can that:
 
+```
 function isUrl(url) {
     _.assert(typeof url === 'string', 'URL should be a *string* value');
     // ... URL validation
@@ -63,8 +63,14 @@ function isUrl(url) {
 
 ```
 
-There is a shorter, nicer and better practice.
+**There is a shorter, nicer and better experience for developer**
+
+## Proposals
+
+- This is not for tests files in project...
+- This is not instead of Jasmine or any test framework...
+* This is inline code for testing production code!
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org)
+[The MIT License](http://piecioshka.mit-license.org) @ 2013

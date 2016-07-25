@@ -1,22 +1,22 @@
 /**
  * @author Piotr Kowalski <piecioshka@gmail.com>
- * @fileOverview Plugin for underscore - add method _.assert
  * @see https://github.com/piecioshka/underscore.assert
- * @license The MIT License
+ * @license The MIT License @ 2013
  */
 
-// Example of _.assert
-// -------------------
+// Usage
+// -----
 
-//     _.assert(true, 'True must be truly value'); // idle...
+//     _.assert(true, 'True must be truly value'); // nothing happened ...
 //     _.assert(typeof Object === 'number', 'Global value *Object* should be fn'); // throws AssertionError with message
 
 (function () {
     'use strict';
 
     /**
-     * Assertion Error module.
+     * Custom error constructor.
      *
+     * @constructor
      * @param {string} [message]
      */
     function AssertionError(message) {
