@@ -4,7 +4,7 @@
 ![](https://img.shields.io/npm/dt/underscore.assert.svg)
 ![](https://img.shields.io/npm/l/underscore.assert.svg)
 
-> Extension for Underscore.js: add method "_.assert", which simplify checking critical states
+> :hammer: Extension for Underscore.js: add method "_.assert", which simplify checking critical states
 
 <pre>
                          _
