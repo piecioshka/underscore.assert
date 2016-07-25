@@ -18,7 +18,7 @@
 
 ## Note
 
-Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.
+Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
 But if you insist I will be happy to hear that you use my package 
 
 Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
@@ -55,7 +55,7 @@ function isUrl(url) {
 
 ... you can that:
 
-```
+```javascript
 function isUrl(url) {
     _.assert(typeof url === 'string', 'URL should be a *string* value');
     // ... URL validation
@@ -63,7 +63,7 @@ function isUrl(url) {
 
 ```
 
-**There is a shorter, nicer and better experience for developer**
+**There is a shorter, nicer and better experience for developer :-)**
 
 ## Proposals
 
