@@ -4,7 +4,7 @@
 ![](https://img.shields.io/npm/dt/underscore.assert.svg)
 ![](https://img.shields.io/npm/l/underscore.assert.svg)
 
-> :hammer: Extension for Underscore.js: add method "_.assert", which simplify checking critical states
+> :hammer: DEPRECATED: Extension for Underscore.js: add method "_.assert", which simplify checking critical states
 
 <pre>
                          _
@@ -16,9 +16,9 @@
 
 </pre>
 
-## Note
+## Warning!
 
-Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
+**DEPRECATED**. Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
 But if you insist I will be happy to hear that you use my package 
 
 Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
