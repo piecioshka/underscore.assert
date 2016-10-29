@@ -1,12 +1,12 @@
 {
     "name": "underscore.assert",
-    "version": "1.1.2",
-    "description": "Plugin for underscore - add method _.assert",
+    "version": "1.2.0",
+    "description": "Plugin for Underscore.js: add method '_.assert', which simplify checking states",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
         "email": "piecioshka@gmail.com",
-        "url": "piecioshka.pl"
+        "url": "http://piecioshka.pl"
     },
     "repository": {
         "type": "git",
@@ -14,7 +14,11 @@
     },
     "scripts": {
         "clear": "rm -rf node_modules/",
-        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+        "build": "webpack --profile",
+        "watch": "webpack -w",
+        "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "coverage": "istanbul cover jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
+        "coveralls": "npm run coverage && cat ./coverage/lcov.info | coveralls -v"
     },
     "keywords": [
         "underscore",
@@ -28,8 +32,12 @@
         "README.md"
     ],
     "devDependencies": {
-        "jasmine": "^2.4.1",
-        "underscore": "^1.8.3"
+        "istanbul": "^0.4.5",
+        "jasmine": "^2.5.2",
+        "json-loader": "^0.5.4",
+        "string-replace-loader": "^1.0.5",
+        "underscore": "^1.8.3",
+        "webpack": "^1.13.3"
     },
-    "main": "index.js"
+    "main": "dist/underscore.assert.js"
 }

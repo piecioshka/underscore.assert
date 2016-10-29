@@ -1,10 +1,11 @@
 # underscore.assert ([npm](https://www.npmjs.com/package/underscore.assert))
 
-![](https://img.shields.io/npm/v/underscore.assert.svg)
+[![npm version](https://badge.fury.io/js/underscore.assert.svg)](https://badge.fury.io/js/underscore.assert)
 ![](https://img.shields.io/npm/dt/underscore.assert.svg)
-![](https://img.shields.io/npm/l/underscore.assert.svg)
+[![Travis](https://img.shields.io/travis/piecioshka/underscore.assert.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/underscore.assert)
+[![Coverage Status](https://coveralls.io/repos/github/piecioshka/underscore.assert/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/underscore.assert?branch=master)
 
-> :hammer: DEPRECATED: Extension for Underscore.js: add method "\_.assert", which simplify checking critical states
+> :hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
 ```
                          _
@@ -18,7 +19,7 @@
 
 ## Warning!
 
-**DEPRECATED**. Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
+Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
 But if you insist I will be happy to hear that you use my package 
 
 Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
@@ -32,6 +33,10 @@ $ npm install underscore.assert
 ## Usage
 
 ```javascript
+var _ = require('underscore');
+var assert = require('underscore.assert');
+_.mixin({ assert: assert });
+
 _.assert(typeof fn === 'function', '*fn* should be function'); // throws AssertionError
 _.assert(list.length > 0, '*list* should contains any value'); // thows ONLY when list is empty
 _.assert(false); // => throw `AssertionError`
@@ -63,12 +68,12 @@ function isUrl(url) {
 
 ```
 
-**There is a shorter, nicer and better experience for developer :-)**
+There is a shorter, nicer and better experience for developer :smile:
 
 ## Proposals
 
-- This is not for tests files in project...
-- This is not instead of Jasmine or any test framework...
+* This is not for tests files in project...
+* This is not instead of Jasmine or any test framework...
 * This is inline code for testing production code!
 
 ## License

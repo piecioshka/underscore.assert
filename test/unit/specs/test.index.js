@@ -1,8 +1,9 @@
 'use strict';
 
-global._ = require('underscore');
+var _ = require('underscore');
+var assert = require('../../../src/index');
 
-var assert = require('../../');
+_.mixin({ assert: assert });
 
 describe('General', function () {
     it('should exists in underscore', function () {
