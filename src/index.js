@@ -1,9 +1,10 @@
 /**
- * @author Piotr Kowalski <piecioshka@gmail.com>
- * @see https://github.com/piecioshka/underscore.assert
- * @license The MIT License @ 2013
- *
- * @usage
+ * @author $AUTHOR$
+ * @name $NAME$
+ * @description $DESCRIPTION$
+ * @version $VERSION$
+ * @license $LICENSE$
+ * @example
  *   // nothing happened ...
  *   _.assert(true, 'True must be truly value');
  *
