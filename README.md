@@ -2,8 +2,8 @@
 
 [![npm version](https://badge.fury.io/js/underscore.assert.svg)](https://badge.fury.io/js/underscore.assert)
 ![](https://img.shields.io/npm/dt/underscore.assert.svg)
-[![Travis](https://img.shields.io/travis/piecioshka/underscore.assert.svg?maxAge=2592000)](https://travis-ci.org/piecioshka/underscore.assert)
-[![Coverage Status](https://coveralls.io/repos/github/piecioshka/underscore.assert/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/underscore.assert?branch=master)
+[![travis-ci](https://api.travis-ci.com/piecioshka/underscore.assert.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/underscore.assert)
+[![coverage](https://coveralls.io/repos/github/piecioshka/underscore.assert/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/underscore.assert?branch=master)
 
 > :hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
