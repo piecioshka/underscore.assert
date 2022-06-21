@@ -5,7 +5,7 @@
 [![travis-ci](https://api.travis-ci.com/piecioshka/underscore.assert.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/underscore.assert)
 [![coverage](https://coveralls.io/repos/github/piecioshka/underscore.assert/badge.svg?branch=master)](https://coveralls.io/github/piecioshka/underscore.assert?branch=master)
 
-> :hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
+:hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
 ```
                          _
