@@ -2,7 +2,6 @@
 
 [![npm version](https://badge.fury.io/js/underscore.assert.svg)](https://badge.fury.io/js/underscore.assert)
 ![](https://img.shields.io/npm/dt/underscore.assert.svg)
-[![travis-ci](https://api.travis-ci.com/piecioshka/underscore.assert.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/underscore.assert)
 
 :hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
@@ -19,7 +18,7 @@
 ## Warning!
 
 Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
-But if you insist I will be happy to hear that you use my package 
+But if you insist I will be happy to hear that you use my package
 
 Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
 
@@ -37,7 +36,7 @@ var assert = require('underscore.assert');
 _.mixin({ assert: assert });
 
 _.assert(typeof fn === 'function', '*fn* should be function'); // throws AssertionError
-_.assert(list.length > 0, '*list* should contains any value'); // thows ONLY when list is empty
+_.assert(list.length > 0, '*list* should contains any value'); // throws ONLY when list is empty
 _.assert(false); // => throw `AssertionError`
 _.assert.ErrorConstructor = MyCustomError;
 _.assert(false); // => throw `MyCustomError`
