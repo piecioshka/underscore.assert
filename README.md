@@ -1,7 +1,9 @@
-# underscore.assert ([npm](https://www.npmjs.com/package/underscore.assert))
+# underscore.assert
 
+[![node version](https://img.shields.io/node/v/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
 [![npm version](https://badge.fury.io/js/underscore.assert.svg)](https://badge.fury.io/js/underscore.assert)
-![](https://img.shields.io/npm/dt/underscore.assert.svg)
+[![downloads count](https://img.shields.io/npm/dt/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
+[![license](https://img.shields.io/npm/l/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
 
 :hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
@@ -24,8 +26,8 @@ Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
 
 ## Install
 
-```
-$ npm install underscore.assert
+```bash
+npm install underscore.assert
 ```
 
 ## Usage
