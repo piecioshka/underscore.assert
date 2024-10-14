@@ -3,7 +3,7 @@
 [![node version](https://img.shields.io/node/v/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
 [![npm version](https://badge.fury.io/js/underscore.assert.svg)](https://badge.fury.io/js/underscore.assert)
 [![downloads count](https://img.shields.io/npm/dt/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
-[![license](https://img.shields.io/npm/l/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
+[![license](https://img.shields.io/npm/l/underscore.assert.svg)](https://piecioshka.mit-license.org)
 
 :hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
