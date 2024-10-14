@@ -22,7 +22,7 @@
 Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
 But if you insist I will be happy to hear that you use my package
 
-Please give me any feedback [@piecioshka](http://twitter.com/piecioshka).
+Please give me any feedback [@piecioshka](https://twitter.com/piecioshka).
 
 ## Install
 
@@ -78,4 +78,4 @@ There is a shorter, nicer and better experience for developer :smile:
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2013
+[The MIT License](https://piecioshka.mit-license.org) @ 2013
