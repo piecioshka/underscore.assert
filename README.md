@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/underscore.assert.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/underscore.assert/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/underscore.assert/actions/workflows/testing.yml)
 
-:hammer: Plugin for Underscore.js: add method "\_.assert", which simplify checking states
+🔨 Plugin for Underscore.js: add method "\_.assert", which simplify checking states
 
 ```
                          _
@@ -68,8 +68,6 @@ function isUrl(url) {
 }
 
 ```
-
-There is a shorter, nicer and better experience for developer :smile:
 
 ## Proposals
 
