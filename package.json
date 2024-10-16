@@ -1,6 +1,6 @@
 {
     "name": "underscore.assert",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "description": "🔨 Plugin for Underscore.js: add method '_.assert', which simplify checking states",
     "license": "MIT",
     "author": {
