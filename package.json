@@ -8,10 +8,6 @@
         "email": "piecioshka@gmail.com",
         "url": "https://piecioshka.pl"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/piecioshka/underscore.assert.git"
-    },
     "scripts": {
         "clear": "rm -rf node_modules/",
         "build": "webpack --profile",
@@ -19,17 +15,6 @@
         "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",
         "coverage": "nyc npm run test && nyc report --reporter=html"
     },
-    "keywords": [
-        "underscore",
-        "assert",
-        "testing"
-    ],
-    "files": [
-        "index.js",
-        "package.json",
-        "bower.json",
-        "README.md"
-    ],
     "devDependencies": {
         "jasmine": "^2.5.2",
         "json-loader": "^0.5.4",
@@ -38,5 +23,21 @@
         "underscore": "^1.8.3",
         "webpack": "^1.13.3"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/piecioshka/underscore.assert.git"
+    },
+    "files": [
+        "dist",
+        "src",
+        "index.js",
+        "package.json",
+        "README.md"
+    ],
+    "keywords": [
+        "underscore",
+        "assert",
+        "testing"
+    ],
     "main": "dist/underscore.assert.js"
 }
