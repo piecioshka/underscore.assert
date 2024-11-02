@@ -19,13 +19,6 @@
 
 ```
 
-## Warning!
-
-Probably, better option foy you is use [assert](https://www.npmjs.com/package/assert) package from npm.<br/>
-But if you insist I will be happy to hear that you use my package
-
-Please give me any feedback [@piecioshka](https://twitter.com/piecioshka).
-
 ## Install
 
 ```bash
@@ -72,7 +65,7 @@ function isUrl(url) {
 
 ## Proposals
 
-* This is not for tests files in project...
+* This is not for specs files in project...
 * This is not instead of Jasmine or any test framework...
 * This is inline code for testing production code!
 
