@@ -10,6 +10,7 @@
     },
     "scripts": {
         "clear": "rm -rf node_modules/",
+        "prebuild": "rm -rf dist/",
         "build": "webpack --profile",
         "watch": "webpack -w",
         "test": "jasmine JASMINE_CONFIG_PATH=test/unit/jasmine.json",

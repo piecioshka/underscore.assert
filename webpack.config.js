@@ -6,8 +6,8 @@ var author = pkg.author.name + ' <' + pkg.author.email + '> (' + pkg.author.url 
 
 module.exports = {
     entry: {
-        'underscore.slice': './index.js',
-        'underscore.slice.min': './index.js'
+        'underscore.assert': './index.js',
+        'underscore.assert.min': './index.js'
     },
 
     output: {
