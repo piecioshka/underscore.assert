@@ -5,7 +5,7 @@
 [![downloads count](https://img.shields.io/npm/dt/underscore.assert.svg)](https://www.npmjs.com/package/underscore.assert)
 [![size](https://packagephobia.com/badge?p=underscore.assert)](https://packagephobia.com/result?p=underscore.assert)
 [![license](https://img.shields.io/npm/l/underscore.assert.svg)](https://piecioshka.mit-license.org)
-[![github-ci](https://github.com/piecioshka/underscore.assert/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/underscore.assert/actions/workflows/testing.yml)
+[![github-ci](https://github.com/piecioshka/underscore.assert/actions/workflows/ci.yml/badge.svg)](https://github.com/piecioshka/underscore.assert/actions/workflows/ci.yml)
 
 🔨 Plugin for Underscore.js: add `_.assert()`, which simplify checking states
 
